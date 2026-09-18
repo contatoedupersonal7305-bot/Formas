@@ -1,7 +1,7 @@
 def circulo():
     print("Cálculo de área do circulo")
     raio = float(input("Digite o tamanho do raio: "))
-    area = raio * 3.14
+    area = (raio * raio) * 3.14
     print(f"A área é {area}")
 def triangulo():
     print("Cálculo de área do triangulo")
@@ -80,5 +80,5 @@ while True:
     elif opcao == 0:
         break
     else:
-        print("Opção Inválida")
-        opcao = int(input("Qual a opção? "))
+        print("Opção Inválida. Tente Novamente.")
+        
