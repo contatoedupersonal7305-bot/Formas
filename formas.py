@@ -53,7 +53,7 @@ print("5 - Paralelogramo")
 print("6 - Losango")
 print("7 - Trapézio")
 print("0 - Sair")
-print("====================")
+print("====================")   
 
 opcao = int(input("Qual a opção? "))
 
