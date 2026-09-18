@@ -42,8 +42,9 @@ def trapezio():
 
 
 
-
+print("====================")
 print("Calculadora de Áreas")
+print("====================")
 print("1 - Círculo")
 print("2 -  Triangulo")
 print("3 - Quadrado")
@@ -52,6 +53,7 @@ print("5 - Paralelogramo")
 print("6 - Losango")
 print("7 - Trapézio")
 print("0 - Sair")
+print("====================")
 
 opcao = int(input("Qual a opção? "))
 
